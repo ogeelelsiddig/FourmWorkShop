@@ -3,11 +3,8 @@ def withdraw(balance, request) :
     if request > balance :
         print ("Can't give you all this money! ")
         
-    
-        
     elif request <= 0 :
         print ("mor than zero plz!")
-        
         
     else:
         while request > 0 :
